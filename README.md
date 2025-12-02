@@ -130,7 +130,62 @@ Python 2/3, Javascript, Django, Django Rest Framework, FastAPI, AIOHTTP, Twisted
 
 ## Дополнительное образование
 
-WIP
+### 2025
+
+[Продвинутый Django 5 для продолжающих](https://stepik.org/cert/2715715)
+
+### 2024
+
+- [SQL Academy](https://sql-academy.org/ru/check-certificate/671152b1cce5890029df30be?language=ru)
+- [Асинхронный Python](https://stepik.org/cert/2699882)
+
+### 2021
+
+[Интерактивный тренажёр по SQL](https://stepik.org/cert/1028495)
+
+### 2020
+
+- [Web-разработчик на Python](https://otus.ru/certificate/653fdb3150e544669d310d73f7508303/)
+- [Курс-тренажёр по SQL](https://github.com/mxmaslin/skillfactory/blob/master/sql/Maxim%20Maslin.pdf)
+
+### 2019
+
+- [Основы SQL](https://stepik.org/cert/211612)
+- [Создание Web-сервисов на Python](https://coursera.org/share/ac3e87c3924eadbff7472895453166d2)
+
+### 2018
+
+[ООП и паттерны проектирования в Python](https://www.coursera.org/account/accomplishments/certificate/KSV7WVKJJMMB)
+
+### 2017
+
+- [6.00.1x: Introduction to Computer Science and Programming Using Python](https://courses.edx.org/certificates/0bf0fd829fe843df836e6f8f2e843079)
+- [Введение в базы данных](https://stepik.org/certificate/f43b16a5f289e9a4d5e0d2b86dd6a8d89083585c.pdf)
+- [Веб-технологии](https://stepik.org/certificate/07e2f2e0ea62704c492890188db3b1f5a005b478.pdf)
+- [Программирование на Python](https://www.coursera.org/account/accomplishments/certificate/KQLCFRTFGNHJ)
+
+### 2016
+
+- [Capstone: Retrieving, Processing, and Visualizing Data with Python](https://www.coursera.org/account/accomplishments/certificate/WYJNN67SSRK5)
+- [Principles of Computing (Part 1)](https://www.coursera.org/account/accomplishments/certificate/AV2ET5W8AX)
+- [Python: основы и применение](https://stepik.org/certificate/1107c82f7136344eb36d77827bfeaeb590142df4.pdf)
+- [Using Databases with Python](https://www.coursera.org/account/accomplishments/certificate/PF3DYSXMQ2U2)
+
+### 2015
+
+- [Python Data Structures](https://www.coursera.org/account/accomplishments/certificate/7ZEZAPA8X6EL)
+- [Using Python to Access Web Data](https://www.coursera.org/account/accomplishments/certificate/2DKZCW2NTF6S)
+- An Introduction to Interactive Programming in Python, Rice University (Coursera)
+
+### 2014
+
+- [Введение в Linux](https://stepik.org/certificate/6bdb64d72bcb0d6cf84d3f18c2dc90c3092c73b6.pdf)
+- [Программирование на Python](https://stepik.org/certificate/ebda31fb800f9f2f5e2fca75abb2e943a4de4e3f.pdf)
+- [Создание веб-интерфейсов с помощью HTML и CSS](https://assets.htmlacademy.ru/certificates/intensive/2/14240.pdf)
+
+### 2012
+
+Learn to Program: The Fundamentals, University of Toronto (Coursera)
 
 ## Как со мной связаться
 
