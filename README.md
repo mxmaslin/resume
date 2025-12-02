@@ -2,7 +2,7 @@
 
 ## `Разработчик бэкенда на Python | middle+`
 
-[Версия для печати]()
+[Скачать PDF](https://github.com/mxmaslin/resume/blob/main/Maslin%20backend.pdf?raw=true) (Size: 258 KB)
 
 ## Общая информация
 
