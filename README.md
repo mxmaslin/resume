@@ -80,6 +80,8 @@ Python 2/3, Javascript, Django, Django Rest Framework, FastAPI, AIOHTTP, Twisted
 
 ### Лендсбэй
 
+**Период работы**: Март 2020 - Октябрь 2021 (1 год и 8 месяцев).
+
 Технологический стек: Python 3, AIOHTTP, Pyramid, PostgreSQL, SQLAlchemy, Alembic, Celery, Redis, RabbitMQ, Docker, GitLab.
 
 Ключевые задачи и достижения:
@@ -98,6 +100,8 @@ Python 2/3, Javascript, Django, Django Rest Framework, FastAPI, AIOHTTP, Twisted
 
 ### ФинТех, ОАО
 
+**Период работы**: Март 2017 - Декабрь 2017 (10 месяцев).
+
 Технологический стек: Python 2, Django, Django REST Framework (DRF), PostgreSQL, Git.
 
 Разрабатывал серверную часть платформы ПСЗИ «Синтез» — системы для автоматизированного управления административно-хозяйственными единицами.
@@ -112,6 +116,8 @@ Python 2/3, Javascript, Django, Django Rest Framework, FastAPI, AIOHTTP, Twisted
 Приобрёл опыт работы с Django REST Framework для построения API и с PostgreSQL для работы с базой данных в enterprise-проекте.
 
 ### Фриланс
+
+**Период работы**: Сентябрь 2016 - Март 2017 (7 месяцев).
 
 Технологический стек: Python 3, Django, Bootstrap, jQuery, Git.
 
