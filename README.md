@@ -2,19 +2,21 @@
 
 ## `Разработчик бэкенда на Python | Senior`
 
-**Контакты**: zapzarap@yandex.ru | Telegram: @dr_blumenau
+**Контакты**: zapzarap@yandex.ru | Telegram: [@dr_blumenau](https://t.me/dr_blumenau)
 
-[Скачать PDF](https://github.com/mxmaslin/resume/blob/main/Maslin%20backend.pdf?raw=true) (Size: 258 KB)
+[Скачать PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_backend_RU.pdf) (Size: 56 KB)
+
+[English Version](https://github.com/mxmaslin/resume/blob/main/README_EN.md)
 
 ## Профессиональный профиль
 
-Backend-разработчик на Python с 6+ лет коммерческого опыта. Специализируюсь на создании надежных, масштабируемых сервисов, сложных интеграциях и работе с высоконагруженными системами. До перехода в разработку 8+ лет работал техническим писателем и аналитиком, что сформировало навыки работы со сложными концепциями, проектирования понятных систем и эффективной коммуникации.
+Backend-разработчик на Python с 6+ лет коммерческого опыта. Специализируюсь на создании надежных, масштабируемых сервисов, сложных интеграциях и работе с высоконагруженными системами, от проектирования архитектуры до настройки метрик и аналитики. До перехода в разработку 8+ лет работал техническим писателем, что сформировало навыки работы со сложными концепциями, проектирования понятных систем и эффективному использованию LLM. Готов выполнять функции Fullstack-инженера (Senior Backend / Middle Frontend), заменяя React/Vue разработчика благодаря знакомству с JavaScript, использованию агентской Cursor IDE, а также отличным навыкам промпт-инжиниринга.
 
 ## Ключевые компетенции:
 
 - **Разработка сервисов**: Полный цикл разработки на Django/DRF, асинхронных фреймворках (FastAPI, AIOHTTP, Twisted).
-- **Безопасность и аутентификация**: экспертиза в OAuth2, 2FA, JWT, прокси-авторизации, RBAC (ролевая модель доступа).
-- **Работа с данными и инфраструктурой**: Оптимизация SQL (рекурсивные CTE), Apache Kafka (high-load продьюсеры/консьюмеры), ETL, контейнеризация (Docker, K8s), мониторинг (Grafana).
+- **Безопасность и аутентификация**: экспертиза в OAuth2, 2FA, JWT, прокси-авторизации, Role Based Access Control.
+- **Работа с данными и инфраструктурой**: Оптимизация SQL (рекурсивные CTE), Apache Kafka (high-load продьюсеры/консьюмеры), ETL, контейнеризация (Docker, K8s), метрики (Prometheus), аналитика (Grafana).
 - **Работа с Legacy-кодом**: Рефакторинг, миграция с Python 2 на 3, покрытие тестами.
 - **Инструменты и подход**: Pytest, GitLab CI/CD, использование AI-ассистентов (Cursor IDE) для ускорения разработки.
 
@@ -26,9 +28,9 @@ Backend-разработчик на Python с 6+ лет коммерческог
 | Фреймворки (Backend)    | Django/DRF, FastAPI, AIOHTTP, Twisted, Pyramid              |
 | Базы данных & ORM       | PostgreSQL, Redis, SQLAlchemy, Alembic, peewee ORM          |
 | Очереди & Async         | Apache Kafka, RabbitMQ, Celery                              |
-| Инфраструктура & DevOps | Docker, Kubernetes, Docker Swarm, Git/GitLab, Grafana, bash |
+| Инфраструктура & DevOps | Docker, Kubernetes, Docker Swarm, Git/GitLab, Prometheus, Grafana, Ansible, bash |
 | Тестирование            | Pytest, unittest                                            |
-| Прочее                  | REST API, OAuth2, JWT, Linux, HTML/CSS                      |
+| Прочее                  | REST API, OAuth2, JWT, Linux, HTML/CSS, JavaScript, Vue                      |
 
 ## Опыт работы
 
@@ -56,7 +58,7 @@ Backend-разработчик на Python с 6+ лет коммерческог
 
 **Период работы**: Апрель 2023 - Август 2024 (1 год и 5 месяцев).
 
-Технологический стек: Python 3, Django, FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, Apache Kafka, Docker, Pytest, Grafana, Kubernetes, GitLab.
+Технологический стек: Python 3, Django, FastAPI, PostgreSQL, Redis, RabbitMQ, Celery, Apache Kafka, Docker, Pytest, Prometheus, Grafana, Kubernetes, GitLab.
 
 **Ключевые задачи и достижения**:
 
@@ -71,7 +73,7 @@ Backend-разработчик на Python с 6+ лет коммерческог
 	- Внедрил систему RBAC для Apache Kafka, стандартизировав управление доступами для 23 микросервисов.
 - Инфраструктура и мониторинг:
 	- Вёл архитектурную документацию по принципу "архитектура как код" с использованием [DockHub](https://dochub.info/main).
-	- Разрабатывал дашборды в Grafana для мониторинга метрик.
+	- Разрабатывал дашборды в Grafana для мониторинга метрик Prometheus'а.
 	- Участвовал в дежурствах второй линии поддержки, консультируя разработчиков из других команд по вопросам интеграции с OAuth2.
 - Качество кода:
 	- Активно покрывал код юнит- и интеграционными тестами с использованием Pytest, включая рефакторинг legacy-кода.
@@ -211,4 +213,4 @@ Learn to Program: The Fundamentals, University of Toronto (Coursera)
 
 ## Как со мной связаться
 
-zapzarap@yandex.ru либо https://t.me/dr_blumenau.
+zapzarap@yandex.ru либо [@dr_blumenau](https://t.me/dr_blumenau).
