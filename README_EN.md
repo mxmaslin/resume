@@ -4,13 +4,13 @@
 
 **Contact**: zapzarap@yandex.ru | Telegram: [@dr_blumenau](https://t.me/dr_blumenau)
 
-[Download PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_backend_RU.pdf) (Size: 56 KB)
+[Download PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_python_en.pdf) (Size: 56 KB)
 
 [Русская версия](https://github.com/mxmaslin/resume/blob/main/README.md)
 
 ## Professional Profile
 
-Python Backend Developer with 6+ years of commercial experience. Specializes in building reliable, scalable services, complex integrations, and high‑load systems — from architecture design to metric configuration and analytics. Prior to development, spent 8+ years as a technical writer, which cultivated skills in working with complex concepts, designing clear systems, and using LLMs effectively. Ready to act as a Fullstack Engineer (Senior Backend / Middle Frontend), compensating for a dedicated React/Vue developer through JavaScript proficiency, the use of agentic Cursor IDE, and strong prompt engineering skills.
+Python Backend Developer with 6+ years of commercial experience. Specializes in building reliable, scalable services, complex integrations, and high‑load systems — from architecture design to metric configuration and analytics. Prior to development, spent 8+ years as a technical writer, which cultivated skills in working with complex concepts, designing clear systems, and, as a result, using LLMs effectively. Beyond backend work, strong prompt engineering skills enable me to function as a Fullstack Engineer (Senior Backend / Middle Frontend), effectively replacing a React/Vue specialist through familiarity with JavaScript and the use of multi‑agent Cursor IDE with a complete toolchain of skills and MCP.
 
 ## Core Competencies
 
