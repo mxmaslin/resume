@@ -217,4 +217,4 @@ Learn to Program: The Fundamentals, University of Toronto (Coursera)
 
 ## Contact
 
-zapzarap@yandex.ru or [@dr_blumenau](https://t.me/dr_blumenau).
+zapzarap@yandex.ru or https://t.me/dr_blumenau.
