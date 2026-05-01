@@ -4,13 +4,13 @@
 
 **Contact**: zapzarap@yandex.ru | Telegram: [@dr_blumenau](https://t.me/dr_blumenau)
 
-[Download PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_python_en.pdf) (Size: 56 KB)
+[Download PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_python_en.pdf)
 
 [Русская версия](https://github.com/mxmaslin/resume/blob/main/README.md)
 
 ## Professional Profile
 
-Python Backend Developer with 6+ years of commercial experience. Specializes in building reliable, scalable services, complex integrations, and high‑load systems — from architecture design to metric configuration and analytics. Prior to development, spent 8+ years as a technical writer, which cultivated skills in working with complex concepts, designing clear systems, and, as a result, using LLMs effectively. Beyond backend work, strong prompt engineering skills enable me to function as a Fullstack Engineer (Senior Backend / Middle Frontend), effectively replacing a React/Vue specialist through familiarity with JavaScript and the use of multi‑agent Cursor IDE with a complete toolchain of skills and MCP.
+Python Backend Developer with 6+ years of commercial experience. Specializes in building reliable, scalable services, complex integrations, and high‑load systems — from architecture design to metric configuration and analytics. Prior to development, spent 8+ years as a technical writer, which cultivated skills in working with complex concepts, designing clear systems, and, as a result, using LLMs and AI tools effectively to boost productivity. When needed, can work with frontend technologies (JavaScript, Vue), enabling effective participation in fullstack development.
 
 ## Core Competencies
 
@@ -38,7 +38,7 @@ Python Backend Developer with 6+ years of commercial experience. Specializes in 
 
 *The company develops a universal low‑code application platform for business and government, as well as solutions built on it*.
 
-**Period**: August 2024 – December 2025 (1 year 5 months).
+**Period**: August 2024 – Present.
 
 Tech Stack: Python 3, Django, DRF, Django Unittest + Pytest, PostgreSQL, Redis, Celery, RabbitMQ, Docker, Docker Swarm, GitLab.
 
@@ -187,6 +187,9 @@ During this period I gained practical experience building Django backends and im
 - [Web Technologies](https://stepik.org/certificate/07e2f2e0ea62704c492890188db3b1f5a005b478.pdf)
 - [Programming in Python](https://www.coursera.org/account/accomplishments/certificate/KQLCFRTFGNHJ)
 
+<details>
+<summary>Earlier Education (2012-2016)</summary>
+
 ### 2016
 
 - [Capstone: Retrieving, Processing, and Visualizing Data with Python](https://www.coursera.org/account/accomplishments/certificate/WYJNN67SSRK5)
@@ -209,6 +212,8 @@ During this period I gained practical experience building Django backends and im
 ### 2012
 
 Learn to Program: The Fundamentals, University of Toronto (Coursera)
+
+</details>
 
 ## Contact
 

@@ -4,14 +4,13 @@
 
 **Контакты**: zapzarap@yandex.ru | Telegram: [@dr_blumenau](https://t.me/dr_blumenau)
 
-[Скачать PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_python_ru
-.pdf) (Size: 56 KB)
+[Скачать PDF](https://github.com/mxmaslin/resume/blob/main/Maslin_python_ru.pdf)
 
 [English Version](https://github.com/mxmaslin/resume/blob/main/README_EN.md)
 
 ## Профессиональный профиль
 
-Backend-разработчик на Python с 6+ лет коммерческого опыта. Специализируюсь на создании надежных, масштабируемых сервисов, сложных интеграциях и работе с высоконагруженными системами, от проектирования архитектуры до настройки метрик и аналитики. До перехода в разработку 8+ лет работал техническим писателем, что сформировало навыки работы со сложными концепциями, проектирования понятных систем и, как результат, эффективного использования LLM. Помимо бэка, отличные навыки промпт-инжиниринга позволяют выполнять функции Fullstack-инженера (Senior Backend / Middle Frontend), заменяя React/Vue-специалиста благодаря знакомству с JavaScript и использованию мульти-агентской Cursor IDE с полной обвязкой в виде skills и MCP.
+Backend-разработчик на Python с 6+ лет коммерческого опыта. Специализируюсь на создании надежных, масштабируемых сервисов, сложных интеграциях и работе с высоконагруженными системами, от проектирования архитектуры до настройки метрик и аналитики. До перехода в разработку 8+ лет работал техническим писателем, что сформировало навыки работы со сложными концепциями, проектирования понятных систем и, как результат, эффективного использования LLM и AI-инструментов для повышения продуктивности. При необходимости могу работать с frontend-технологиями (JavaScript, Vue), что позволяет эффективно участвовать в fullstack-разработке.
 
 ## Ключевые компетенции:
 
@@ -39,7 +38,7 @@ Backend-разработчик на Python с 6+ лет коммерческог
 
 *Компания разрабатывает универсальную платформу-конструктор приложений для бизнеса и государства, а также решения на её основе*.
 
-**Период работы**: Август 2024 - Декабрь 2025 (1 год и 5 месяцев).
+**Период работы**: Август 2024 - настоящее время.
 
 Технологический стек: Python 3, Django, DRF, Django Unittest + Pytest, PostgreSQL, Redis, Celery, RabbitMQ, Docker, Docker Swarm, GitLab.
 
@@ -189,6 +188,9 @@ Backend-разработчик на Python с 6+ лет коммерческог
 - [Веб-технологии](https://stepik.org/certificate/07e2f2e0ea62704c492890188db3b1f5a005b478.pdf)
 - [Программирование на Python](https://www.coursera.org/account/accomplishments/certificate/KQLCFRTFGNHJ)
 
+<details>
+<summary>Раннее образование (2012-2016)</summary>
+
 ### 2016
 
 - [Capstone: Retrieving, Processing, and Visualizing Data with Python](https://www.coursera.org/account/accomplishments/certificate/WYJNN67SSRK5)
@@ -211,6 +213,8 @@ Backend-разработчик на Python с 6+ лет коммерческог
 ### 2012
 
 Learn to Program: The Fundamentals, University of Toronto (Coursera)
+
+</details>
 
 ## Как со мной связаться
 
