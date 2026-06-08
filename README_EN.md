@@ -1,8 +1,10 @@
 # Maslin Maxim Mikhailovich
 
+**Python Backend Developer · 7+ years of commercial experience (Django, FastAPI, PostgreSQL)**
+
 Male, 49 years old, born May 30, 1977
 
-**Email:** [zapzarap@yandex.ru](mailto:zapzarap@yandex.ru) — preferred contact method  
+**Email:** [zapzarap@yandex.ru](mailto:zapzarap@yandex.ru) — preferred contact  
 **MAX:** [max.ru/u/f9LHodD0cOJo6LfPoZriBTPNxYKVPwiMxcGpGqTTewSp5mwOzS946NvX8Ok](https://max.ru/u/f9LHodD0cOJo6LfPoZriBTPNxYKVPwiMxcGpGqTTewSp5mwOzS946NvX8Ok)  
 **Telegram:** [@dr_blumenau](https://t.me/dr_blumenau)  
 **GitHub:** [github.com/mxmaslin](https://github.com/mxmaslin)
@@ -15,265 +17,145 @@ Male, 49 years old, born May 30, 1977
 
 ## Desired position
 
-**Senior Developer (AI, Django, FastAPI)**
+**Python Backend Developer (Django, FastAPI, PostgreSQL)**
 
 **Specializations:** programmer, developer  
 **Employment type:** full-time  
-**Work format:** remote, hybrid  
-**Commute preference:** not important
+**Work format:** remote, hybrid
 
 ---
 
 ## Work experience — 7 years 2 months
 
+*Commercial Python development. Developer documentation (Waves) — listed separately below.*
+
 ### April 2026 — present · 2 months
 
-**[Fooddvor](https://fooddvor.ru)** · Moscow  
-Food products · fresh vegetables and fruits (promotion, wholesale)
+**[Fooddvor](https://fooddvor.ru)** · Moscow · e-commerce
 
-**Senior Developer (Python/PHP)**
+**Python Backend Developer (FastAPI)**
 
-**Product:** WooCommerce online store, Telegram chatbot.
+**Product:** WooCommerce online store, Telegram order notifications.
 
-**Stack:** Python 3, FastAPI, Redis, Docker, GitLab CI, Pytest, WordPress/WooCommerce, HMAC.
+**Stack:** Python 3, FastAPI, Redis, Docker, GitLab CI, Pytest, REST API, HMAC, WordPress/WooCommerce.
 
-**Responsibilities:**
-
-- Writing program code
-- Fixing identified bugs
-- Developing and maintaining the server-side application
-- Analyzing root causes of bugs to prevent recurrence
-- Integrating software modules and assembling application components
-- Developing and maintaining the client-side web application
-- Developing and integrating APIs for data exchange between systems and applications
-- Version control, tracking and managing code changes
-- Managing the development team
-- Reporting on development progress
-
-**Achievements:**
-
-- Built scalable asynchronous Telegram notification delivery when hosting in Russia has unstable access to api.telegram.org.
-- Moved notifications off the critical order path.
-- Eliminated checkout blocking risk from synchronous API calls.
-- Designed the fooddvor-tg-relay microservice (FastAPI, clean architecture): HMAC, idempotency, Redis/SQS queue, worker → Telegram Bot API.
-- Integrated WordPress: non-blocking send (2s timeout), fallback to direct API.
-- Implemented GitLab CI.
+- Designed **fooddvor-tg-relay** microservice (FastAPI): HMAC, idempotency, Redis/SQS queue, worker → Telegram Bot API.
+- Moved notification delivery off the checkout critical path; eliminated checkout blocking when Telegram API is unavailable.
+- Integrated WordPress: non-blocking call (2s timeout), direct API fallback.
+- Set up **GitLab CI** for the service and deployment.
 
 ---
 
 ### February 2026 — March 2026 · 2 months
 
-**[Open Solutions](https://osinit.com)** · Penza  
-Information technology, system integration, internet · software development
+**[Open Solutions](https://osinit.com)** · Penza · compliance / GRC
 
-**Senior Python Backend Developer**
+**Python Backend Developer (Django, DRF)**
 
-**Product:** compliance platform, action plans module and workflow constructor.
+**Product:** GRC platform — action plans, workflow builder.
 
-**Stack:** Python 3, Django, DRF, drf-spectacular, PostgreSQL, Redis, Celery, RabbitMQ, Docker, GitLab CI, Pytest.
+**Stack:** Python 3, Django, Django REST Framework, PostgreSQL, Redis, Celery, RabbitMQ, Docker, GitLab CI, Pytest, Swagger/OpenAPI.
 
-**Responsibilities:**
-
-- Writing program code
-- Fixing identified bugs
-- Developing and maintaining the server-side application
-- Reporting on development progress
-- Analyzing root causes of bugs to prevent recurrence
-- Integrating software modules and assembling application components
-- Developing and maintaining the client-side web application
-- Formatting code per customer requirements and industry/company standards
-- Reviewing code written by other developers
-- Version control, tracking and managing code changes
-- Formalizing and algorithmizing tasks before implementation
-- Developing and integrating APIs for data exchange between systems and applications
-
-**Achievements:**
-
-- Built REST API for action plan execution responsibles (CRUD, permissions by company/groups/users); integration tests.
-- Implemented CRUD for plan and action status transitions in workflow (pre-/post-functions, validations, service layer).
-- Extended status API, restored Swagger/OpenAPI, stabilized GitLab CI.
+- Built **REST API** for plan action assignees (CRUD, company/group/user permissions), Pytest integration tests.
+- Implemented CRUD for plan/action status transitions in workflow (pre-/post-functions, validations, service layer).
+- Restored **Swagger/OpenAPI** (drf-spectacular), stabilized GitLab CI.
 
 ---
 
 ### August 2024 — December 2025 · 1 year 5 months
 
-**[Big3](https://big3.ru)** · Moscow  
-Information technology, system integration, internet · software development · enterprise integration, IT consulting
+**[Big Three](https://big3.ru)** · Moscow · B3 low-code platform
 
-**Senior Python Backend Developer**
+**Python Backend Developer (Django, DRF)**
 
-**Product:** B3 low-code platform for business and government.
+**Stack:** Python 3, Django, DRF, PostgreSQL, Redis, Celery, RabbitMQ, Docker Swarm, GitLab, Pytest, raw SQL.
 
-**Stack:** Python 3, Django, DRF, Pytest, PostgreSQL, Redis, Celery, RabbitMQ, Docker Swarm, GitLab.
-
-- Developed new features and integrations on B3 (customized Django); optimized raw SQL, recursive CTEs; debugged platform and applications.
-- Implemented get_depth_level for hierarchical directory: depth in one SQL query, descendant updates in two.
-- Optimized SQL with recursive CTEs, reducing critical operation time (EXPLAIN ANALYZE measurements).
-- Fixed “zombie login” on GoTech: Keycloak end-session + redirect chain for frontend.
-- Restored email delivery (Celery queue LOW→MEDIUM) and profile defect (root cause in low-code layer).
-- Refactored legacy B3; started using Cursor in development.
-
-**Period takeaway:** hands-on recursive CTEs in raw SQL and Django ORM. AI tools in development: Copilot, Windscribe; settled on Cursor with MCP, skills, rules and token consumption optimization as the main assistant.
+- Implemented `get_depth_level` for hierarchical directories: depth in **one SQL query**, descendant updates in two (recursive **CTEs**).
+- Optimized critical queries (**EXPLAIN ANALYZE**), reduced hierarchy operation time.
+- Fixed “zombie login” on Gostech: **Keycloak** end-session + redirect chain.
+- Restored mail delivery (Celery LOW→MEDIUM queue) and profile defect in the low-code layer.
+- Refactored legacy B3 code; Pytest coverage for critical changes.
 
 ---
 
 ### April 2023 — August 2024 · 1 year 5 months
 
-**[Samolet Development](https://samoletgroup.ru)** · Moscow  
-Financial sector · construction, real estate, development
+**[Samolet Development](https://samoletgroup.ru)** · Moscow
 
-**Senior Python Backend Developer**
+**Python Backend Developer (Django, FastAPI)**
 
-**Product:** corporate IT services for a major real estate developer.
+**Stack:** Python 3, Django, FastAPI, PostgreSQL, Redis, **Apache Kafka**, Celery, Docker, **Kubernetes**, GitLab, Pytest, **OAuth2**, django-guardian, Grafana.
 
-**Stack:** Python 3, Django, FastAPI, PostgreSQL, Redis, Kafka, Celery, Docker, Pytest, Grafana, K8s, GitLab, django-guardian.
-
-- 2FA for OAuth2 provider S.ID (15+ applications, 8000+ employees); social login with mandatory 2FA.
-- Forced logout: token revocation + Redis sessions on LDAP events.
-- JWT proxy for ECM (−67% access approval time, ticket system).
-- Kafka: GLPI adapter, 50,000+ evt/min, latency <12 ms; RBAC in kafka-manager (guardian).
-- ITHub/DockHub documentation, Grafana, 2nd-line OAuth2 support, Pytest on refactoring.
-
-**Period takeaway:** FastAPI, Apache Kafka, Kubernetes, Prometheus, Grafana; OAuth2 protocol implementation.
+- Deployed **2FA** for OAuth2 provider S.ID (15+ apps, 8000+ employees).
+- Forced logout: token revoke + Redis sessions on LDAP events.
+- Built **JWT proxy** for ECM (−67% access approval time).
+- Kafka GLPI adapter (50,000+ evt/min); **RBAC** in kafka-manager (guardian).
+- API documentation (ITHub/DockHub), OAuth2 2nd-line support.
 
 ---
 
 ### November 2021 — November 2022 · 1 year 1 month
 
-**[Globant](https://globant.com)** · Minsk · Ubisoft (Flare)  
-Information technology, system integration, internet · software development
+**[Globant](https://globant.com)** · Ubisoft (Flare) · Minsk
 
-**Python Backend Developer**
-
-**Product:** Flare, Ubisoft internal tool for visualizing manual QA defects in video games.
-
-**Stack:** Python 2/3, Twisted, PostgreSQL, Redis, Pytest, GitLab.
-
-- Completed Python 2 → 3 migration (232 modules), preserving API.
-- Implemented Microsoft Azure AD integration.
-- High test coverage on critical modules (Pytest).
-
-**Period takeaway:** deep practical experience with Twisted; cloud identity provider integration (Microsoft Azure).
+**Python Backend Developer** — Python 2→3 migration (232 modules), Twisted, Azure AD, Pytest.
 
 ---
 
 ### March 2020 — October 2021 · 1 year 8 months
 
-**Lendsbay LLC** · [lendsbay.com](https://lendsbay.com) · Moscow  
-Financial sector · financial and credit intermediation
+**Lendsbay** · [lendsbay.com](https://lendsbay.com) · Moscow · fintech / P2P lending
 
-**Python Backend Developer**
+**Python Backend Developer** — **AIOHTTP**, ~**10,000 RPS** to PostgreSQL, 100,000+ users; credit bureau XML parser; −**12.3%** churn (penalty forgiveness).
 
-**Product:** P2P lending platform.
+---
 
-**Stack:** Python 3, AIOHTTP, Pyramid, SQLAlchemy, Alembic, PostgreSQL, Celery, Redis, RabbitMQ, Docker, GitLab.
+### 2017 — 2020 · 3 years
 
-Developed the server side of the high-load Lendsbay mobile app at ~10,000 RPS to the database (source: pg_stat_database), serving 100,000+ users.
+**[Waves](https://waves.tech)** · remote · fintech / blockchain platform
 
-**Business logic and integrations:**
+**Technical Writer (developer documentation)**
 
-- Built an XML parser for credit bureau exports, improving Lendsbay automated scoring accuracy.
-- Implemented periodic notifications to collection agencies about overdue user payments.
-- Designed an automatic penalty waiver algorithm with flexible conditions, reducing churn by 12.3% (per business analytics).
+Focus: integration developer docs and cryptocurrency exchange **REST API**.
 
-**UI and data visualization:**
+- Wrote and maintained **developer documentation** in **English**: guides, reference, integration scenarios.
+- Documented exchange **REST API**: endpoints, data models, errors, request examples.
+- Aligned API doc structure with backend teams; unified terminology for external developers.
 
-- Built interactive analytics in the admin panel from scratch: d3.js dashboards with complex filtering for key business metrics.
-- On own initiative, built a functional prototype of the client web UI to validate UX hypotheses.
-
-**Period takeaway:** AIOHTTP, Pyramid, SQLAlchemy ORM, Alembic migrations.
+*After this period — commercial Python backend development (from 2020).*
 
 ---
 
 ### March 2017 — December 2017 · 10 months
 
-**[FinTech, JSC](https://www.fintech.ru)** · Moscow  
-Information technology, system integration, internet · enterprise integration, IT consulting
-
-**Junior Python Backend Developer**
-
-**Product:** web service for administrative resource accounting.
-
-**Stack:** Python 2, Django, Django REST Framework (DRF), PostgreSQL, Git.
-
-- Developed and maintained backend on Django and DRF.
-- Built REST API for frontend and integration with adjacent systems.
-- Designed data models; ensured PostgreSQL integrity and efficiency.
-- Developed business logic for administrative resource management and accounting.
-
-**Period takeaway:** Django REST Framework and PostgreSQL in an enterprise project.
+**[FinTech](https://www.fintech.ru)** · Moscow — Junior Python Backend Developer (Django, DRF).
 
 ---
 
 ### September 2016 — March 2017 · 7 months
 
-**Intern / Python Backend Developer** · Moscow
-
-**Internship at Corona Travel:**
-
-- Built a forum engine on Django from scratch: posting and commenting.
-- Completed entry-level tasks, strengthening commercial development and teamwork skills.
-
-**Freelance projects:**
-
-- Rental property accounting system on Django: property database, payment calculation, reporting.
-- Corporate landing page for a financial organization with responsive Bootstrap design and jQuery interactions.
-
-**Period takeaway:** Django backend, user interfaces with Bootstrap and jQuery.
-
-**Tech stack:** Python 3, Django, Bootstrap, jQuery, Git.
+Internship (Corona Travel), Django freelance — forum engine, rental accounting, landing pages.
 
 ---
 
 ## Education
 
-**Higher education**, 1998  
-**Lomonosov Moscow State University**, Moscow  
-Faculty of Philosophy, teacher training
+**MSU**, Faculty of Philosophy, 1998
 
 ---
 
-## Professional development, courses
+## Professional development
 
-- **2015** — An Introduction to Interactive Programming in Python, Rice University, Programming
-- **2012** — Learn to Program: The Fundamentals, University of Toronto, Programming
-
----
-
-## Digital certificates
-
-| Year | Certificate |
-|------|-------------|
-| 2025 | Advanced Django 5 for Professionals |
-| 2024 | SQL Academy |
-| 2024 | Asynchronous Python |
-| 2021 | Interactive SQL Trainer |
-| 2020 | Python Web Developer |
-| 2020 | SQL Course Trainer |
-| 2019 | SQL Basics |
-| 2019 | Building Web Services in Python |
-| 2018 | OOP and Design Patterns in Python |
-| 2017 | 6.00.1x: Introduction to Computer Science and Programming Using Python |
-| 2017 | Introduction to Databases |
-| 2017 | Web Technologies |
-| 2017 | Programming in Python |
-| 2016 | Capstone: Retrieving, Processing, and Visualizing Data with Python |
-| 2016 | Principles of Computing (Part 1) |
-| 2016 | Python: Basics and Applications |
-| 2016 | Using Databases with Python |
-| 2015 | Python Data Structures |
-| 2015 | Using Python to Access Web Data |
-| 2014 | Introduction to Linux |
-| 2014 | Programming in Python |
-| 2014 | Creating Web Interfaces with HTML and CSS |
+**2025** — Advanced Django 5 · **2024** — SQL Academy; Async Python · **2020** — Python Web Developer
 
 ---
 
 ## Skills
 
-**Languages:** Russian — native; English — B1 — intermediate
+**Languages:** Russian — native; English — B1 (technical documentation; Waves — EN)
 
-**Skills:** Python, Git, SQL, PostgreSQL, Django Rest Framework, Redis, Celery, Docker, Linux, Kubernetes, SQLAlchemy, FastAPI, Pytest, AIOHTTP, Grafana, RabbitMQ, Django Framework, REST API, Prometheus, JavaScript, Apache Kafka, OAuth, Ollama, MCP, Prompt engineering, GitLab, Cursor, Bash, LLM, Swagger
+**Key skills:**  
+Python, Django Framework, Django REST Framework, FastAPI, PostgreSQL, SQL, REST API, Redis, Celery, Docker, Git, GitLab, Pytest, Linux, Apache Kafka, OAuth, RabbitMQ, Swagger, SQLAlchemy, JavaScript, Kubernetes, Keycloak
 
 ---
 
@@ -281,34 +163,20 @@ Faculty of Philosophy, teacher training
 
 ### References
 
-**Samolet Development** — Alexander Trubnikov (Head of Centralized IT Services Department)
+**Samolet Development** — Alexander Trubnikov (Head of Centralized IT Services)
 
 ### About me
 
-**Professional profile**
+**Python Backend Developer** with **7+ years** of commercial experience: **Django/DRF**, **FastAPI**, **PostgreSQL**, **REST API**, **Celery**, **Redis**, **Docker**, **GitLab CI**, **Pytest**. Strengths — integrations (**OAuth2**, **Kafka**), hierarchies and **SQL/CTEs**, GRC/workflow, e-commerce.
 
-Python backend developer with 7 years of commercial experience. I specialize in reliable scalable services, complex integrations, and high-load systems — from API design to metrics and CI/CD. Experience in OAuth2/security, Kafka, Django platforms, GRC/workflow, and e-commerce.
+Previously **3 years** writing **developer documentation** and **REST API** docs in English ([Waves](https://waves.tech)) — I design clear APIs and **OpenAPI/Swagger**. Frontend (JavaScript, Vue) for fullstack tasks when needed.
 
-Before development, I spent 8+ years as a technical writer — which helps me design clear systems, document APIs, and use LLM/AI (Cursor) effectively. I can work with frontend (JavaScript, Vue) for fullstack tasks when needed.
-
-**Core competencies**
-
-- **Service development:** Django/DRF, FastAPI, AIOHTTP, Twisted; event-driven integrations, OpenAPI.
-- **Security:** OAuth2, OIDC, 2FA, JWT, Keycloak, HMAC, RBAC (including django-guardian).
-- **Data and infrastructure:** PostgreSQL, recursive CTEs, Kafka (high-load), Celery, Redis, Docker/K8s, Grafana/Prometheus.
-- **Legacy and quality:** Python 2→3 migration, refactoring, Pytest, GitLab CI/CD.
-- **Tools:** Cursor, MCP, documentation as code (DockHub/ITHub).
-
-**Technology stack**
-
-| Category | Technologies |
+| Area | Technologies |
 | --- | --- |
-| Languages | Python 2/3, JavaScript (ES6+), SQL, PHP (WP integrations) |
-| Backend | Django/DRF, FastAPI, AIOHTTP, Twisted, Pyramid |
-| Databases & ORM | PostgreSQL, Redis, SQLAlchemy, Alembic |
-| Queues | Apache Kafka, RabbitMQ, Celery |
-| DevOps | Docker, Docker Compose, Kubernetes, Docker Swarm, Git/GitLab, bash |
-| Observability | Prometheus, Grafana |
-| Other | REST API, OpenAPI/Swagger, OAuth2, JWT, Keycloak, Linux, WooCommerce |
+| Backend | Django/DRF, FastAPI, AIOHTTP, Pyramid |
+| Data | PostgreSQL, Redis, SQLAlchemy, recursive CTEs |
+| Queues | Celery, RabbitMQ, Apache Kafka |
+| DevOps | Docker, GitLab CI, Kubernetes (basics) |
+| Security | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-*Updated: May 30, 2026*
+*Updated: June 8, 2026*
