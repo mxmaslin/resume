@@ -29,20 +29,20 @@ Male, 49 years old, born May 30, 1977
 
 *Commercial Python development. Developer documentation (Waves) — listed separately below.*
 
-### April 2026 — present · 2 months
+### April 2026 — present
 
 **[Fooddvor](https://fooddvor.ru)** · Moscow · e-commerce
 
 **Python Backend Developer (FastAPI)**
 
-**Product:** WooCommerce online store, Telegram order notifications.
+**Product:** WooCommerce online store, Telegram relay / order notifications.
 
 **Stack:** Python 3, FastAPI, Redis, Docker, GitLab CI, Pytest, REST API, HMAC, WordPress/WooCommerce.
 
 - Designed **fooddvor-tg-relay** microservice (FastAPI): HMAC, idempotency, Redis/SQS queue, worker → Telegram Bot API.
 - Moved notification delivery off the checkout critical path; eliminated checkout blocking when Telegram API is unavailable.
 - Integrated WordPress: non-blocking call (2s timeout), direct API fallback.
-- Set up **GitLab CI** for the service and deployment.
+- Set up **GitLab CI/CD** for the service and deployment.
 
 ---
 
@@ -58,7 +58,7 @@ Male, 49 years old, born May 30, 1977
 
 - Built **REST API** for plan action assignees (CRUD, company/group/user permissions), Pytest integration tests.
 - Implemented CRUD for plan/action status transitions in workflow (pre-/post-functions, validations, service layer).
-- Restored **Swagger/OpenAPI** (drf-spectacular), stabilized GitLab CI.
+- Restored **Swagger/OpenAPI** (drf-spectacular), stabilized **GitLab CI/CD**.
 
 ---
 
@@ -98,7 +98,15 @@ Male, 49 years old, born May 30, 1977
 
 **[Globant](https://globant.com)** · Ubisoft (Flare) · Minsk
 
-**Python Backend Developer** — Python 2→3 migration (232 modules), Twisted, Azure AD, Pytest.
+**Python Backend Developer**
+
+**Product:** Flare — internal Ubisoft tool for video game bug visualization.
+
+**Stack:** Python 2/3, Twisted, PostgreSQL, Redis, Pytest, GitLab, Microsoft Azure AD.
+
+- Completed **Python 2 → 3** migration (232 modules) while preserving API.
+- Integrated **Microsoft Azure AD** authentication.
+- Increased **Pytest** coverage on critical modules.
 
 ---
 
@@ -110,16 +118,17 @@ Male, 49 years old, born May 30, 1977
 
 ---
 
-### 2017 — 2020 · 3 years
+### February 2017 — February 2020 · 3 years 1 month
 
-**[Waves](https://waves.tech)** · remote · fintech / blockchain platform
+**[Waves](https://waves.tech)** · Moscow  
+Fintech platform
 
-**Technical Writer (developer documentation)**
+**Technical Writer (documentation developer)**
 
-Focus: integration developer docs and cryptocurrency exchange **REST API**.
+Focus: **developer documentation** and **REST API** for external integrators (English).
 
 - Wrote and maintained **developer documentation** in **English**: guides, reference, integration scenarios.
-- Documented exchange **REST API**: endpoints, data models, errors, request examples.
+- Documented platform **REST API** and related services: endpoints, data models, errors, request examples.
 - Aligned API doc structure with backend teams; unified terminology for external developers.
 
 *After this period — commercial Python backend development (from 2020).*
@@ -130,11 +139,7 @@ Focus: integration developer docs and cryptocurrency exchange **REST API**.
 
 **[FinTech](https://www.fintech.ru)** · Moscow — Junior Python Backend Developer (Django, DRF).
 
----
-
-### September 2016 — March 2017 · 7 months
-
-Internship (Corona Travel), Django freelance — forum engine, rental accounting, landing pages.
+*Earlier: internship (Corona Travel), Django freelance — rental accounting, landing pages.*
 
 ---
 
@@ -179,4 +184,4 @@ Previously **3 years** writing **developer documentation** and **REST API** docs
 | DevOps | Docker, GitLab CI, Kubernetes (basics) |
 | Security | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-*Updated: June 8, 2026*
+*Updated: June 9, 2026*
