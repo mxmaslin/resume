@@ -29,23 +29,6 @@ Male, 49 years old, born May 30, 1977
 
 *Commercial Python development. Developer documentation (Waves) — listed separately below.*
 
-### April 2026 — present
-
-**[Fooddvor](https://fooddvor.ru)** · Moscow · e-commerce
-
-**Python Backend Developer (FastAPI)**
-
-**Product:** WooCommerce online store, Telegram relay / order notifications.
-
-**Stack:** Python 3, FastAPI, Redis, Docker, GitLab CI, Pytest, REST API, HMAC, WordPress/WooCommerce.
-
-- Designed **fooddvor-tg-relay** microservice (FastAPI): HMAC, idempotency, Redis/SQS queue, worker → Telegram Bot API.
-- Moved notification delivery off the checkout critical path; eliminated checkout blocking when Telegram API is unavailable.
-- Integrated WordPress: non-blocking call (2s timeout), direct API fallback.
-- Set up **GitLab CI/CD** for the service and deployment.
-
----
-
 ### February 2026 — March 2026 · 2 months
 
 **[Open Solutions](https://osinit.com)** · Penza · compliance / GRC

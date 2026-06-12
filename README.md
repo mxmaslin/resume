@@ -30,24 +30,6 @@
 
 *Коммерческая разработка на Python. Документация для разработчиков (Waves) — отдельно ниже.*
 
-### Апрель 2026 — настоящее время
-
-**[Фуддвор](https://fooddvor.ru)** · Москва  
-Продукты питания · e-commerce
-
-**Python Backend-разработчик (FastAPI)**
-
-**Продукт:** интернет-магазин WooCommerce, Telegram relay / уведомления о заказах.
-
-**Стек:** Python 3, FastAPI, Redis, Docker, GitLab CI, Pytest, REST API, HMAC, WordPress/WooCommerce.
-
-- Спроектировал микросервис **fooddvor-tg-relay** (FastAPI): HMAC, идемпотентность, очередь Redis/SQS, worker → Telegram Bot API.
-- Вынес доставку уведомлений из критического пути checkout; исключил блокировку оформления заказа при недоступности Telegram API.
-- Интегрировал WordPress: неблокирующий вызов (timeout 2 с), fallback на прямой API.
-- Настроил **GitLab CI/CD** для сервиса и деплоя.
-
----
-
 ### Февраль 2026 — Март 2026 · 2 месяца
 
 **[Открытые решения](https://osinit.com)** · Пенза  
