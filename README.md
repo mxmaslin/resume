@@ -80,7 +80,7 @@
 - Разработал **JWT proxy** для ECM (−67% время согласования доступов).
 - Построил Kafka-адаптер GLPI (50 000+ evt/min, latency <12 ms); **RBAC** в kafka-manager (guardian).
 - **TECHPLAT-1059** (Go, микросервис **smail**): маршрутизация входящих писем из Kafka — разбор заголовков project/origin, привязка transport при сохранении в PostgreSQL (GORM), проверка whitelist AllowedTransports; доработка consumer и сервисного слоя BuildMailModel/ScheduleMail.
-- **TECHPLAT-3831** (Go, **smail**): миграция на новый Kafka-кластер — TLS-подключение consumer/producer, сертификаты из env (base64) вместо файлов, вынос dialer в отдельную функцию, рефакторинг конфигурации окружения, обновление k8s-манifestов; прошёл code review.
+- **TECHPLAT-3831** (Go, **smail**): миграция на новый Kafka-кластер — TLS-подключение consumer/producer, сертификаты из env (base64) вместо файлов, вынос dialer в отдельную функцию, рефакторинг конфигурации окружения, обновление k8s-манифестов; прошёл code review.
 - Настраивал **GitLab CI/CD** для сервисов: MR → test → build → deploy dev/stage/prod; секреты и deploy tokens в CI Variables.
 - Вёл документацию API (ITHub/DockHub), 2-я линия поддержки OAuth2-провайдера.
 
