@@ -41,7 +41,7 @@ Male, 49 years old, born May 30, 1977
 
 - Built **REST API** for plan action assignees (CRUD, company/group/user permissions), Pytest integration tests.
 - Implemented CRUD for plan/action status transitions in workflow (pre-/post-functions, validations, service layer).
-- Restored **Swagger/OpenAPI** (drf-spectacular), stabilized **GitLab CI/CD**.
+- Restored **Swagger/OpenAPI** (drf-spectacular), stabilized **GitLab CI/CD** (MR → pytest → deploy).
 
 ---
 
@@ -67,12 +67,15 @@ Male, 49 years old, born May 30, 1977
 
 **Python Backend Developer (Django, FastAPI)**
 
-**Stack:** Python 3, Django, FastAPI, PostgreSQL, Redis, **Apache Kafka**, Celery, Docker, **Kubernetes**, GitLab, Pytest, **OAuth2**, django-guardian, Grafana.
+**Stack:** Python 3, **Golang**, Django, FastAPI, PostgreSQL, Redis, **Apache Kafka**, Celery, Docker, **Kubernetes**, GitLab CI/CD, Pytest, **OAuth2**, django-guardian, Grafana.
 
 - Deployed **2FA** for OAuth2 provider S.ID (15+ apps, 8000+ employees).
 - Forced logout: token revoke + Redis sessions on LDAP events.
 - Built **JWT proxy** for ECM (−67% access approval time).
-- Kafka GLPI adapter (50,000+ evt/min); **RBAC** in kafka-manager (guardian).
+- Kafka GLPI adapter (50,000+ evt/min, latency <12 ms); **RBAC** in kafka-manager (guardian).
+- **TECHPLAT-1059** (Go, **smail** microservice): inbound mail routing from Kafka — project/origin headers, transport binding to PostgreSQL (GORM), AllowedTransports whitelist; consumer and BuildMailModel/ScheduleMail service layer.
+- **TECHPLAT-3831** (Go, **smail**): migration to a new Kafka cluster — TLS consumer/producer, certificates from env (base64) instead of files, dialer refactor, k8s manifest updates; passed code review.
+- Configured **GitLab CI/CD** for services: MR → test → build → deploy dev/stage/prod; secrets and deploy tokens in CI Variables.
 - API documentation (ITHub/DockHub), OAuth2 2nd-line support.
 
 ---
@@ -143,7 +146,7 @@ Focus: **developer documentation** and **REST API** for external integrators (En
 **Languages:** Russian — native; English — B1 (technical documentation; Waves — EN)
 
 **Key skills:**  
-Python, Django Framework, Django REST Framework, FastAPI, PostgreSQL, SQL, REST API, Redis, Celery, Docker, Git, GitLab, Pytest, Linux, Apache Kafka, OAuth, RabbitMQ, Swagger, SQLAlchemy, JavaScript, Kubernetes, Keycloak
+Python, Golang, Django Framework, Django REST Framework, FastAPI, PostgreSQL, MongoDB, Elasticsearch, SQL, REST API, Redis, Celery, RabbitMQ, Apache Kafka, OAuth, Docker, Git, GitLab CI/CD, Pytest, Linux, Kubernetes
 
 ---
 
@@ -155,16 +158,18 @@ Python, Django Framework, Django REST Framework, FastAPI, PostgreSQL, SQL, REST 
 
 ### About me
 
-**Python Backend Developer** with **7+ years** of commercial experience: **Django/DRF**, **FastAPI**, **PostgreSQL**, **REST API**, **Celery**, **Redis**, **Docker**, **GitLab CI**, **Pytest**. Strengths — integrations (**OAuth2**, **Kafka**), hierarchies and **SQL/CTEs**, GRC/workflow, e-commerce.
+**Python Backend Developer** with **7+ years** of commercial experience: **Django/DRF**, **FastAPI**, **PostgreSQL**, **REST API**, **Celery**, **Redis**, **Docker**, **GitLab CI/CD**, **Pytest**. Strengths — integrations (**OAuth2**, **Kafka**), hierarchies and **SQL/CTEs**, GRC/workflow. At Samolet — two production **Golang** tasks in smail (TECHPLAT-1059, TECHPLAT-3831); configured **GitLab CI/CD** myself: test → build → deploy, secrets in CI Variables.
 
 Previously **3 years** writing **developer documentation** and **REST API** docs in English ([Waves](https://waves.tech)) — I design clear APIs and **OpenAPI/Swagger**. Frontend (JavaScript, Vue) for fullstack tasks when needed.
 
 | Area | Technologies |
 | --- | --- |
-| Backend | Django/DRF, FastAPI, AIOHTTP, Pyramid |
-| Data | PostgreSQL, Redis, SQLAlchemy, recursive CTEs |
+| Backend | Django/DRF, FastAPI, Golang (smail: TECHPLAT-1059/3831), AIOHTTP, Pyramid |
+| Data | PostgreSQL, Redis, MongoDB*, Elasticsearch*, recursive CTEs |
 | Queues | Celery, RabbitMQ, Apache Kafka |
-| DevOps | Docker, GitLab CI, Kubernetes (basics) |
+| DevOps | Docker, GitLab CI/CD, Kubernetes (basics) |
 | Security | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-*Updated: June 9, 2026*
+\* **MongoDB, Elasticsearch** — no commercial production experience yet. Ready to demonstrate on a pet project: **media catalog and search API for a mobile client** — MongoDB (titles, seasons/episodes, user lists), Elasticsearch (full-text search, genre/year/cast filters), FastAPI, Pytest, Docker Compose. GitHub repo — when ready.
+
+*Updated: July 4, 2026*

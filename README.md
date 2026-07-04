@@ -43,7 +43,7 @@
 
 - Реализовал **REST API** ответственных за мероприятия плана (CRUD, permissions по компании/группам/пользователям), интеграционные тесты Pytest.
 - Реализовал CRUD переходов статусов планов и мероприятий в workflow (pre-/post-функции, валидации, сервисный слой).
-- Восстановил работоспособность **Swagger/OpenAPI** (drf-spectacular), стабилизировал **GitLab CI/CD**.
+- Восстановил работоспособность **Swagger/OpenAPI** (drf-spectacular), стабилизировал **GitLab CI/CD** (MR → pytest → deploy).
 
 ---
 
@@ -73,12 +73,15 @@
 
 **Python Backend-разработчик (Django, FastAPI)**
 
-**Стек:** Python 3, Django, FastAPI, PostgreSQL, Redis, **Apache Kafka**, Celery, Docker, **Kubernetes**, GitLab, Pytest, **OAuth2**, django-guardian, Grafana.
+**Стек:** Python 3, **Golang**, Django, FastAPI, PostgreSQL, Redis, **Apache Kafka**, Celery, Docker, **Kubernetes**, GitLab CI/CD, Pytest, **OAuth2**, django-guardian, Grafana.
 
 - Внедрил **2FA** для OAuth2-провайдера S.ID (15+ приложений, 8000+ сотрудников).
 - Реализовал принудительный logout: отзыв токенов + Redis-сессии при событиях LDAP.
 - Разработал **JWT proxy** для ECM (−67% время согласования доступов).
 - Построил Kafka-адаптер GLPI (50 000+ evt/min, latency <12 ms); **RBAC** в kafka-manager (guardian).
+- **TECHPLAT-1059** (Go, микросервис **smail**): маршрутизация входящих писем из Kafka — разбор заголовков project/origin, привязка transport при сохранении в PostgreSQL (GORM), проверка whitelist AllowedTransports; доработка consumer и сервисного слоя BuildMailModel/ScheduleMail.
+- **TECHPLAT-3831** (Go, **smail**): миграция на новый Kafka-кластер — TLS-подключение consumer/producer, сертификаты из env (base64) вместо файлов, вынос dialer в отдельную функцию, рефакторинг конфигурации окружения, обновление k8s-манifestов; прошёл code review.
+- Настраивал **GitLab CI/CD** для сервисов: MR → test → build → deploy dev/stage/prod; секреты и deploy tokens в CI Variables.
 - Вёл документацию API (ITHub/DockHub), 2-я линия поддержки OAuth2-провайдера.
 
 ---
@@ -168,7 +171,7 @@ P2P-кредитование · финтех
 **Языки:** русский — родной; английский — B1 (рабочая документация, техписатель Waves — EN)
 
 **Ключевые навыки:**  
-Python, Django Framework, Django Rest Framework, FastAPI, PostgreSQL, SQL, REST API, Redis, Celery, Docker, Git, GitLab, Pytest, Linux, Apache Kafka, OAuth, RabbitMQ, Swagger, SQLAlchemy, JavaScript, Kubernetes, Keycloak
+Python, Golang, Django Framework, Django Rest Framework, FastAPI, PostgreSQL, MongoDB, Elasticsearch, SQL, REST API, Redis, Celery, RabbitMQ, Apache Kafka, OAuth, Docker, Git, GitLab CI/CD, Pytest, Linux, Kubernetes
 
 ---
 
@@ -180,16 +183,18 @@ Python, Django Framework, Django Rest Framework, FastAPI, PostgreSQL, SQL, REST 
 
 ### Обо мне
 
-**Python Backend-разработчик** с **7+ годами коммерческого опыта**: **Django/DRF**, **FastAPI**, **PostgreSQL**, **REST API**, **Celery**, **Redis**, **Docker**, **GitLab CI**, **Pytest**. Сильные стороны — интеграции (**OAuth2**, **Kafka**), иерархии и **SQL/CTE**, GRC/workflow, e-commerce.
+**Python Backend-разработчик** с **7+ годами коммерческого опыта**: **Django/DRF**, **FastAPI**, **PostgreSQL**, **REST API**, **Celery**, **Redis**, **Docker**, **GitLab CI/CD**, **Pytest**. Сильные стороны — интеграции (**OAuth2**, **Kafka**), иерархии и **SQL/CTE**, GRC/workflow. В Самолёте — две боевые задачи на **Golang** в smail (TECHPLAT-1059, TECHPLAT-3831); **GitLab CI/CD** настраивал сам: test → build → deploy, секреты в CI Variables.
 
 Ранее **3 года** писал **developer documentation** и **REST API**-доки на английском ([Waves](https://waves.tech)) — проектирую понятные API и **OpenAPI/Swagger**. При необходимости — frontend (JavaScript, Vue) в рамках fullstack-задач.
 
 | Категория | Технологии |
 | --- | --- |
-| Backend | Django/DRF, FastAPI, AIOHTTP, Pyramid |
-| Данные | PostgreSQL, Redis, SQLAlchemy, рекурсивные CTE |
+| Backend | Django/DRF, FastAPI, Golang (smail: TECHPLAT-1059/3831), AIOHTTP, Pyramid |
+| Данные | PostgreSQL, Redis, MongoDB*, Elasticsearch*, рекурсивные CTE |
 | Очереди | Celery, RabbitMQ, Apache Kafka |
-| DevOps | Docker, GitLab CI, Kubernetes (базово) |
+| DevOps | Docker, GitLab CI/CD, Kubernetes (базово) |
 | Безопасность | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-*Обновлено: 09.06.2026*
+\* **MongoDB, Elasticsearch** — коммерческого опыта пока не было. Готов продемонстрировать владение на pet-проекте: **API каталога и поиска контента для мобильного клиента** — MongoDB (карточки фильмов/сериалов, сезоны/эпизоды, пользовательские списки), Elasticsearch (полнотекстовый поиск, фильтры по жанрам/годам/актёрам), FastAPI, Pytest, Docker Compose. Репозиторий на GitHub — по готовности.
+
+*Обновлено: 04.07.2026*
