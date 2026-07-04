@@ -195,6 +195,6 @@ Python, Golang, Django Framework, Django Rest Framework, FastAPI, PostgreSQL, Mo
 | DevOps | Docker, GitLab CI/CD, Kubernetes (базово) |
 | Безопасность | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-\* **MongoDB, Elasticsearch** — коммерческого опыта пока не было. Готов продемонстрировать владение на pet-проекте: **API каталога и поиска контента для мобильного клиента** — MongoDB (карточки фильмов/сериалов, сезоны/эпизоды, пользовательские списки), Elasticsearch (полнотекстовый поиск, фильтры по жанрам/годам/актёрам), FastAPI, Pytest, Docker Compose. Репозиторий на GitHub — по готовности.
+\* **MongoDB, Elasticsearch** — коммерческого опыта не было; владение демонстрирую кодом: **[github.com/mxmaslin/elastic_mongo](https://github.com/mxmaslin/elastic_mongo)** — API каталога и поиска контента для стриминга (FastAPI, DDD-слои): MongoDB — документная модель, optimistic concurrency, атомарные upsert'ы; Elasticsearch — полнотекстовый поиск с fuzziness, фильтры, highlight, пагинация, reindex; 58 unit + 35 integration тестов (реальные Mongo/ES), mypy strict, GitHub Actions CI, Docker Compose.
 
 *Обновлено: 04.07.2026*

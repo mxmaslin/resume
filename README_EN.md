@@ -170,6 +170,6 @@ Previously **3 years** writing **developer documentation** and **REST API** docs
 | DevOps | Docker, GitLab CI/CD, Kubernetes (basics) |
 | Security | OAuth2, JWT, Keycloak, HMAC, RBAC (guardian) |
 
-\* **MongoDB, Elasticsearch** — no commercial production experience yet. Ready to demonstrate on a pet project: **media catalog and search API for a mobile client** — MongoDB (titles, seasons/episodes, user lists), Elasticsearch (full-text search, genre/year/cast filters), FastAPI, Pytest, Docker Compose. GitHub repo — when ready.
+\* **MongoDB, Elasticsearch** — no commercial experience; proficiency shown in code: **[github.com/mxmaslin/elastic_mongo](https://github.com/mxmaslin/elastic_mongo)** — a streaming-style media catalog & search API (FastAPI, DDD layering): MongoDB — document modeling, optimistic concurrency, atomic upserts; Elasticsearch — full-text search with fuzziness, genre/year filters, highlighting, pagination, reindex; 58 unit + 35 integration tests (real Mongo/ES), strict mypy, GitHub Actions CI, Docker Compose.
 
 *Updated: July 4, 2026*
