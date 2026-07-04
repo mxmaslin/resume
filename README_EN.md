@@ -9,7 +9,7 @@ Male, 49 years old, born May 30, 1977
 **Telegram:** [@dr_blumenau](https://t.me/dr_blumenau)  
 **GitHub:** [github.com/mxmaslin](https://github.com/mxmaslin)
 
-**Location:** Moscow, Shchukinskaya metro  
+**Location:** Smolensk  
 **Citizenship:** Russia; authorized to work in Belarus and Russia  
 **Relocation:** Russia; open to business trips
 
